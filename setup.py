@@ -5,6 +5,6 @@ setup(
     author_email='bhatiaabhishek8893@gmail.com',
     name='tfutils',
     version='0.0.1',
-    packages=find_packages('tfutils', 'tfutils.*'),
-    python_requires='3.8.0'
+    packages=find_packages(include=['tfutils', 'tfutils.*']),
+    python_requires='==3.8.0'
 )
