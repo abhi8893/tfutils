@@ -17,6 +17,9 @@ class ClassificationPerformanceComparer:
                 self.model_names = list(models.keys())
             else:
                 self.model_names = [f'model_{i+1}' for i in range(len(models))]
+
+        else:
+            self.model_names = model_names
         
         if isinstance(models, (tuple, list)):
             self.models = dict(zip(self.model_names, models))
