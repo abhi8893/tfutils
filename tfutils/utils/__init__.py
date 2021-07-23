@@ -1,2 +1,2 @@
 from .utils import *
-from _labelanalyzer import LabelAnalyzer
+from ._labelanalyzer import LabelAnalyzer
