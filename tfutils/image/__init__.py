@@ -1,1 +1,2 @@
 from .datadirectory import ClassicImageDataDirectory, ImageDataset
+from .visualize_conv import visualize_convolutions
