@@ -1,2 +1,3 @@
 from .datadirectory import ClassicImageDataDirectory, ImageDataset
 from .visualize_conv import visualize_convolutions
+from .img_clf_exp import ImageClassificationExperiment
